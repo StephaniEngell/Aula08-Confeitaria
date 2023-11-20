@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+.contato {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contato:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 300;
+}
+
+img {
+    width: 650px;
+    margin-left: 180px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form [type="submit"]:hover{
+opacity: .5;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
