@@ -1,10 +1,11 @@
 body {
     background-color: rgb(34, 34, 34);
     color: white;
-    max-width: 1650px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 header {
@@ -22,7 +23,7 @@ header {
 a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 a:hover {
@@ -57,8 +58,8 @@ main {
 }
 
 h2 {
-    font-size: 56px;
-    line-height: 10px;
+    font-size: 1.8em;
+    line-height: 0.8em;
 }
 
 span {
@@ -66,23 +67,24 @@ span {
 }
 
 p {
-    line-height: 20px;
-    max-width: 500px;
-    font-family: 300;
+    line-height: 1em;
+    max-width: 400px;
+    font-family: 'Poppins', sans-serif;
 }
 
 img {
-    width: 650px;
-    margin-left: 180px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 150px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 100%; /* Ajuste para ocupar 100% da largura do contêiner pai */
 }
 
-form [type="submit"]{
+form [type="submit"] {
     height: 50px;
     width: 50%;
     background-color: rgb(132, 14, 201);
@@ -91,8 +93,8 @@ form [type="submit"]{
     cursor: pointer;
 }
 
-form [type="submit"]:hover{
-opacity: .5;
+form [type="submit"]:hover {
+    opacity: .5;
 }
 
 input {
