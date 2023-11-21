@@ -20,6 +20,10 @@ header {
     line-height: 10px;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -69,7 +73,6 @@ span {
 p {
     line-height: 1em;
     max-width: 400px;
-    font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -81,7 +84,7 @@ img {
 form {
     display: flex;
     flex-direction: column;
-    width: 100%; /* Ajuste para ocupar 100% da largura do contêiner pai */
+    width: 100%;
 }
 
 form [type="submit"] {
@@ -91,6 +94,7 @@ form [type="submit"] {
     color: white;
     font-weight: bold;
     cursor: pointer;
+    border: none;
 }
 
 form [type="submit"]:hover {
@@ -102,6 +106,9 @@ input {
     height: 20px;
     padding: 15px;
     border-radius: 20px;
-    border: none;
     font-size: 15px;
+}
+
+input:focus {
+    outline: none;
 }
